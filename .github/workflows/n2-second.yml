@@ -1,0 +1,8 @@
+name: n2-second
+on:
+  workflow_dispatch:
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo N2-2
